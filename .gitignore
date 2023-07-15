@@ -30,9 +30,15 @@ __pycache__/
 *.bak
 *.tmp
 *.cache/
-*.pyc
+
 
 # Ignore Django migration files
 **/migrations/*.py
 **/migrations/*.pyc
 **/migrations/__pycache__/
+
+# Environments
+.venv
+env/
+venv/
+ENV/
